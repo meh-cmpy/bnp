@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BNP Eventservice — Mobile Cocktailbar, Smoothie Catering & Messecatering | Bochum & deutschlandweit</title>
+<meta name="description" content="BNP Eventservice aus Bochum: Dachmarke von Cocktailfreunde (mobile Cocktailbar) und Fruchtfreunde (Smoothie Catering). Für Hochzeiten, Firmenfeiern, Messen und jeden Anlass – NRW und deutschlandweit. Jetzt unverbindlich anfragen.">
+<meta name="keywords" content="BNP Eventservice, Cocktailfreunde, Fruchtfreunde, mobile Cocktailbar, Smoothie Catering, Messecatering, Hochzeitscatering, Standparty, Cocktailbar mieten, Smoothiebar mieten, Cocktailbar Bochum, Cocktailbar NRW, Messecatering deutschlandweit, Eventcatering Ruhrgebiet">
+<meta property="og:title" content="BNP Eventservice — Cocktailbar, Smoothie Catering & Messecatering">
+<meta property="og:description" content="Die Dachmarke hinter Cocktailfreunde und Fruchtfreunde. Mobile Cocktailbar, Smoothie Catering und Messecatering für jeden Anlass — Bochum, NRW und deutschlandweit.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<link rel="canonical" href="https://www.bnp-eventservice.de/">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "BNP Eventservice",
+  "url": "https://www.bnp-eventservice.de",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Alte Hattinger Straße 29",
+    "postalCode": "44789",
+    "addressLocality": "Bochum",
+    "addressCountry": "DE"
+  },
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Mobile Cocktailbar",
+        "url": "https://www.cocktailfreunde.info"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Smoothie Catering",
+        "url": "https://www.fruchtfreunde.info"
+      }
+    }
+  ],
+  "areaServed": "DE"
+}
+</script>
+<style>
+  :root {
+    --ink: #0b0b0d;
+    --ink-2: #151519;
+    --paper: #f6f3ec;
+    --gold: #c9a24b;
+    --gold-dim: #8a7238;
+    --coral: #f05a57;
+    --azur: #00d4e0;
+    --line: #2a2a2e;
+    --grey: #9b9ba3;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--ink);
+    color: var(--paper);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .eyebrow {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 14px;
+  }
+  a { color: inherit; }
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: rgba(11,11,13,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 24px;
+  }
+  .brand-mark { display: flex; align-items: center; gap: 10px; }
+  .brand-mark img { height: 34px; width: auto; display: block; }
+  .brand-mark span {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-size: 0.95rem;
+    color: var(--paper);
+  }
+  nav .links {
+    display: none;
+    gap: 28px;
+    font-size: 0.92rem;
+    color: var(--grey);
+  }
+  @media (min-width: 780px) {
+    nav .links { display: flex; }
+  }
+  nav .links a:hover { color: var(--paper); }
+  .nav-cta {
+    background: var(--gold);
+    color: var(--ink);
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  header.hero {
+    padding: 100px 0 80px;
+    border-bottom: 1px solid var(--line);
+    position: relative;
+    overflow: hidden;
+  }
+  header.hero::before {
+    content: "";
+    position: absolute;
+    top: -200px;
+    right: -200px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(201,162,75,0.10) 0%, transparent 70%);
+  }
+  h1.headline {
+    font-size: clamp(2.2rem, 5vw, 3.6rem);
+    max-width: 780px;
+    line-height: 1.08;
+    margin-bottom: 24px;
+  }
+  h1.headline em {
+    font-style: italic;
+    color: var(--gold);
+  }
+  p.hero-sub {
+    max-width: 560px;
+    color: #c9c6bd;
+    font-size: 1.08rem;
+    margin-bottom: 34px;
+  }
+  .btn-row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 3px;
+    font-size: 0.92rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .btn-primary { background: var(--gold); color: var(--ink); }
+  .btn-ghost { border: 1px solid var(--line); color: var(--paper); }
+  .btn-primary:hover { background: #ddb45f; }
+  .btn-ghost:hover { border-color: var(--gold); }
+  .statbar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 64px;
+    padding-top: 40px;
+    border-top: 1px solid var(--line);
+  }
+  @media (min-width: 700px) {
+    .statbar { grid-template-columns: repeat(4, 1fr); }
+  }
+  .statbar .num {
+    font-family: 'Fraunces', serif;
+    font-size: 2.1rem;
+    color: var(--gold);
+  }
+  .statbar .label {
+    font-size: 0.82rem;
+    color: var(--grey);
+  }
+  section { padding: 88px 0; border-bottom: 1px solid var(--line); }
+  section.tight { padding: 64px 0; }
+  h2.title {
+    font-size: clamp(1.7rem, 3.4vw, 2.4rem);
+    max-width: 620px;
+    margin-bottom: 20px;
+  }
+  p.lead {
+    max-width: 620px;
+    color: #c9c6bd;
+    margin-bottom: 44px;
+  }
+  .hub {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0 10px;
+  }
+  .hub-center {
+    background: var(--gold);
+    color: var(--ink);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+    padding: 16px 34px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .hub-center img { height: 26px; width: auto; }
+  .hub-line {
+    width: 1px;
+    height: 40px;
+    background: linear-gradient(var(--gold), transparent);
+  }
+  .hub-children {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    width: 100%;
+  }
+  @media (min-width: 720px) {
+    .hub-children { grid-template-columns: 1fr 1fr; }
+  }
+  .brand-card {
+    background: var(--ink-2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 32px;
+    text-decoration: none;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+    display: block;
+  }
+  .brand-card img.blogo { height: 46px; width: auto; margin-bottom: 16px; display: block; }
+  .brand-card .mini-cta {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 30px;
+    border: 1px solid var(--line);
+  }
+  .brand-card.coral .mini-cta { border-color: var(--coral); color: var(--coral); }
+  .brand-card.azur .mini-cta { border-color: var(--azur); color: var(--azur); }
+  .brand-card:hover { transform: translateY(-4px); }
+  .brand-card.coral:hover { border-color: var(--coral); }
+  .brand-card.azur:hover { border-color: var(--azur); }
+  .brand-card .tag {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: inline-block;
+  }
+  .brand-card.coral .tag { color: var(--coral); }
+  .brand-card.azur .tag { color: var(--azur); }
+  .brand-card h3 { font-size: 1.5rem; margin-bottom: 10px; }
+  .brand-card p { color: #b5b2aa; font-size: 0.95rem; margin-bottom: 18px; }
+  .brand-card .go { font-size: 0.85rem; font-weight: 600; }
+  .brand-card.coral .go { color: var(--coral); }
+  .brand-card.azur .go { color: var(--azur); }
+  .tags { display: flex; flex-wrap: wrap; gap: 10px; }
+  .tag-pill {
+    border: 1px solid var(--line);
+    color: #d8d5cc;
+    padding: 9px 18px;
+    border-radius: 30px;
+    font-size: 0.88rem;
+  }
+  .price-grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+  @media (min-width: 720px) { .price-grid { grid-template-columns: repeat(3, 1fr); } }
+  .price-card {
+    background: var(--ink-2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .price-card.hi { border-color: var(--gold); }
+  .price-card .pname { font-size: 0.85rem; color: var(--grey); margin-bottom: 6px; }
+  .price-card .ptotal {
+    font-family: 'Fraunces', serif;
+    font-size: 2.2rem;
+    color: var(--paper);
+    margin-bottom: 4px;
+  }
+  .price-card .pper { font-size: 0.85rem; color: var(--gold); margin-bottom: 18px; }
+  .price-card ul { list-style: none; }
+  .price-card ul li {
+    font-size: 0.88rem;
+    color: #c9c6bd;
+    padding-left: 18px;
+    position: relative;
+    margin-bottom: 8px;
+  }
+  .price-card ul li::before { content: "—"; position: absolute; left: 0; color: var(--gold); }
+  .price-note { margin-top: 20px; font-size: 0.85rem; color: var(--grey); }
+  .price-note a { color: var(--gold); text-decoration: underline; }
+  .included-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+  @media (min-width: 720px) { .included-grid { grid-template-columns: 1fr 1fr; } }
+  .included-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .included-item .mark { color: var(--gold); font-family: 'Space Mono', monospace; }
+  .included-item p { font-size: 0.92rem; color: #c9c6bd; }
+  .included-item strong { color: var(--paper); display: block; margin-bottom: 2px; }
+  .region-grid { display: grid; grid-template-columns: 1fr; gap: 28px; }
+  @media (min-width: 720px) { .region-grid { grid-template-columns: repeat(2, 1fr); } }
+  .region { border-left: 2px solid var(--line); padding-left: 18px; }
+  .region h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.95rem;
+    color: var(--gold);
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  .region p { font-size: 0.88rem; color: #a9a69f; }
+  .why-grid { display: grid; grid-template-columns: 1fr; gap: 30px; }
+  @media (min-width: 720px) { .why-grid { grid-template-columns: repeat(3, 1fr); } }
+  .why-item .n { font-family: 'Fraunces', serif; font-size: 1.6rem; color: var(--gold); margin-bottom: 10px; }
+  .why-item p { color: #b5b2aa; font-size: 0.92rem; }
+  .cta-section { text-align: center; padding: 90px 0; }
+  .cta-section h2 { max-width: 100%; margin: 0 auto 18px; }
+  .cta-section p { max-width: 520px; margin: 0 auto 30px; color: #c9c6bd; }
+  .btn-row.center { justify-content: center; }
+  footer { padding: 60px 0 30px; font-size: 0.85rem; color: var(--grey); }
+  footer .foot-grid { display: grid; grid-template-columns: 1fr; gap: 30px; margin-bottom: 40px; }
+  @media (min-width: 720px) { footer .foot-grid { grid-template-columns: repeat(4, 1fr); } }
+  footer h4 {
+    color: var(--paper);
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    font-family: 'Space Mono', monospace;
+  }
+  footer ul { list-style: none; }
+  footer ul li { margin-bottom: 8px; }
+  footer ul li a:hover { color: var(--paper); }
+  .foot-legal {
+    border-top: 1px solid var(--line);
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .seo-block { font-size: 0.78rem; color: #55555c; line-height: 1.8; margin-top: 30px; }
+  .reveal { opacity: 0; transform: translateY(16px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+  .floating-wa {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 30;
+    background: var(--gold);
+    color: var(--ink);
+    padding: 14px 22px;
+    border-radius: 50px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .floating-wa:hover { background: #ddb45f; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand-mark">
+      <img src="assets/bnp-logo-gold.png" alt="BNP Eventservice Logo">
+      <span>EVENTSERVICE</span>
+    </div>
+    <div class="links">
+      <a href="#marken">Marken</a>
+      <a href="#pakete">Pakete</a>
+      <a href="#messen">Messen</a>
+      <a href="#kontakt">Kontakt</a>
+    </div>
+    <a class="nav-cta" href="mailto:neef@bnp-eventservice.de?subject=Anfrage%20BNP%20Eventservice">Jetzt anfragen</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Bochum · NRW · Deutschlandweit</span>
+    <h1 class="headline">Zwei Marken. <em>Eine Handschrift.</em> Ihr Event.</h1>
+    <p class="hero-sub">BNP Eventservice ist die Dachmarke hinter Cocktailfreunde und Fruchtfreunde — mobile Cocktailbar und Live-Smoothie-Catering für Hochzeiten, Firmenfeiern, Messen und jeden Anlass, bei dem gute Getränke den Unterschied machen.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="mailto:neef@bnp-eventservice.de?subject=Anfrage%20BNP%20Eventservice">Unverbindlich anfragen</a>
+      <a class="btn btn-ghost" href="https://wa.me/491759652382" target="_blank" rel="noopener">Per WhatsApp schreiben</a>
+    </div>
+
+    <div class="statbar">
+      <div>
+        <div class="num">10+</div>
+        <div class="label">Jahre Erfahrung im Ruhrgebiet</div>
+      </div>
+      <div>
+        <div class="num">2</div>
+        <div class="label">Eigene Marken unter einem Dach</div>
+      </div>
+      <div>
+        <div class="num">15km</div>
+        <div class="label">Anfahrt immer inklusive</div>
+      </div>
+      <div>
+        <div class="num">bundesweit</div>
+        <div class="label">Buchbar für Messen & Events</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="marken">
+  <div class="wrap">
+    <span class="eyebrow">Unsere Marken</span>
+    <h2 class="title">Eine Anfrage. Der passende Spezialist.</h2>
+    <p class="lead">BNP Eventservice bündelt zwei eigenständige Marken für Ihr Event — jede mit klarem Fokus, beide aus einer Hand geplant und umgesetzt.</p>
+
+    <div class="hub reveal">
+      <div class="hub-center"><img src="assets/bnp-logo-ink.png" alt=""> BNP EVENTSERVICE</div>
+      <div class="hub-line"></div>
+      <div class="hub-children">
+        <a class="brand-card azur" href="https://www.cocktailfreunde.info" target="_blank" rel="noopener">
+          <img class="blogo" src="assets/logo-cocktailfreunde.png" alt="Cocktailfreunde Logo">
+          <span class="tag">Mobile Cocktailbar</span>
+          <h3>Cocktailfreunde</h3>
+          <p>22 Cocktails mit und ohne Alkohol, zwei Barkeeper vor Ort, Pakete ab 1.200 € — für Hochzeit, Firmenevent, Messe und Standparty.</p>
+          <span class="mini-cta">Zu Cocktailfreunde.info →</span>
+        </a>
+        <a class="brand-card coral" href="https://www.fruchtfreunde.info" target="_blank" rel="noopener">
+          <img class="blogo" src="assets/logo-fruchtfreunde.png" alt="Fruchtfreunde Logo">
+          <span class="tag">Live Smoothie Catering</span>
+          <h3>Fruchtfreunde</h3>
+          <p>Live vor Ort zubereitete Smoothies in personalisierten Recycling-PET-Flaschen — ab 200 Stück, deutschlandweit buchbar.</p>
+          <span class="mini-cta">Zu Fruchtfreunde.info →</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <span class="eyebrow">Für jeden Anlass</span>
+    <h2 class="title">Ein Grund zu feiern reicht.</h2>
+    <p class="lead">Ob privat oder geschäftlich — unsere Cocktailbar und unser Smoothiecatering passen sich Ihrem Anlass an.</p>
+    <div class="tags reveal">
+      <span class="tag-pill">Hochzeit</span>
+      <span class="tag-pill">JGA / Junggesellenabschied</span>
+      <span class="tag-pill">Geburtstag</span>
+      <span class="tag-pill">Firmenfeier</span>
+      <span class="tag-pill">Firmenjubiläum</span>
+      <span class="tag-pill">Messeauftritt & Standparty</span>
+      <span class="tag-pill">Produktlaunch</span>
+      <span class="tag-pill">Weihnachtsfeier</span>
+      <span class="tag-pill">Sommerfest</span>
+      <span class="tag-pill">Festival & Open Air</span>
+      <span class="tag-pill">Vereinsfeier</span>
+      <span class="tag-pill">Jahreshauptversammlung</span>
+      <span class="tag-pill">Gesundheitstag</span>
+      <span class="tag-pill">Kundenveranstaltung</span>
+      <span class="tag-pill">Konferenz & Kongress</span>
+      <span class="tag-pill">Teambuilding-Event</span>
+      <span class="tag-pill">Private Gartenparty</span>
+      <span class="tag-pill">Stadtfest</span>
+    </div>
+  </div>
+</section>
+
+<section id="pakete">
+  <div class="wrap">
+    <span class="eyebrow">Cocktailfreunde · Pakete</span>
+    <h2 class="title">Mobile Cocktailbar — Preise auf einen Blick</h2>
+    <p class="lead">22 Cocktails zur Auswahl, 11 mit und 11 ohne Alkohol. Zwei Cocktailfreunde vor Ort, Anfahrt bis 15 km inklusive.</p>
+
+    <div class="price-grid reveal">
+      <div class="price-card">
+        <div class="pname">Starter</div>
+        <div class="ptotal">1.200 €</div>
+        <div class="pper">150 Cocktails · 8,00 € pro Cocktail</div>
+        <ul>
+          <li>Catering bis zu 3 Stunden</li>
+          <li>2 Cocktailfreunde vor Ort</li>
+          <li>Mobile Theke & komplettes Equipment</li>
+        </ul>
+      </div>
+      <div class="price-card hi">
+        <div class="pname">Party</div>
+        <div class="ptotal">1.500 €</div>
+        <div class="pper">200 Cocktails · 7,50 € pro Cocktail</div>
+        <ul>
+          <li>Catering bis zu 4 Stunden</li>
+          <li>2 Cocktailfreunde vor Ort</li>
+          <li>Mobile Theke & komplettes Equipment</li>
+        </ul>
+      </div>
+      <div class="price-card">
+        <div class="pname">Total</div>
+        <div class="ptotal">1.750 €</div>
+        <div class="pper">250 Cocktails · 7,00 € pro Cocktail</div>
+        <ul>
+          <li>Catering bis zu 5 Stunden</li>
+          <li>2 Cocktailfreunde vor Ort</li>
+          <li>Mobile Theke & komplettes Equipment</li>
+        </ul>
+      </div>
+    </div>
+    <p class="price-note">Alle Pakete inklusive Anfahrt bis 15 km, Barequipment und Auf-/Abbau. Verlängerungen und individuelle Pakete direkt bei <a href="https://www.cocktailfreunde.info" target="_blank" rel="noopener">Cocktailfreunde.info →</a></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">Fruchtfreunde · Smoothie Catering</span>
+    <h2 class="title">Live-Smoothies, die für Sie arbeiten.</h2>
+    <p class="lead">Frisch zubereitet vor Ort, in personalisierten Recycling-PET-Flaschen mit Logo oder QR-Code — der ideale Werbeträger für Messen und Firmenevents.</p>
+
+    <div class="price-grid reveal">
+      <div class="price-card">
+        <div class="pname">Einstieg</div>
+        <div class="ptotal">1.200 €</div>
+        <div class="pper">300 Smoothies · 4,00 € pro Smoothie</div>
+        <ul>
+          <li>1 Fruchtfreund vor Ort</li>
+          <li>3 Sorten nach Wahl</li>
+          <li>Catering bis zu 8 Stunden</li>
+        </ul>
+      </div>
+      <div class="price-card hi">
+        <div class="pname">Beliebt</div>
+        <div class="ptotal">1.500 €</div>
+        <div class="pper">500 Smoothies · 3,00 € pro Smoothie</div>
+        <ul>
+          <li>1 Fruchtfreund vor Ort</li>
+          <li>3 Sorten nach Wahl</li>
+          <li>Catering bis zu 8 Stunden</li>
+        </ul>
+      </div>
+      <div class="price-card">
+        <div class="pname">Messeprofi</div>
+        <div class="ptotal">2.000 €</div>
+        <div class="pper">1.000 Smoothies · 2,00 € pro Smoothie</div>
+        <ul>
+          <li>Mehrere Fruchtfreunde buchbar</li>
+          <li>3 Sorten nach Wahl</li>
+          <li>Catering bis zu 8 Stunden</li>
+        </ul>
+      </div>
+    </div>
+    <p class="price-note">Weitere Staffelungen von 200 bis 1.000+ Stück, personalisierte Flaschen und Sonderfarben direkt bei <a href="https://www.fruchtfreunde.info" target="_blank" rel="noopener">Fruchtfreunde.info →</a></p>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <span class="eyebrow">Immer dabei</span>
+    <h2 class="title">Kein Kleingedrucktes.</h2>
+    <div class="included-grid reveal">
+      <div class="included-item">
+        <span class="mark">—</span>
+        <p><strong>Anfahrt bis 15 km</strong>Immer inklusive, bei beiden Marken.</p>
+      </div>
+      <div class="included-item">
+        <span class="mark">—</span>
+        <p><strong>Auf- und Abbau</strong>Vollständig übernommen, kein Aufwand für Sie.</p>
+      </div>
+      <div class="included-item">
+        <span class="mark">—</span>
+        <p><strong>Professionelles Personal vor Ort</strong>Barkeeper bzw. Fruchtfreund, erfahren und zuvorkommend.</p>
+      </div>
+      <div class="included-item">
+        <span class="mark">—</span>
+        <p><strong>Individuelles Branding möglich</strong>Firmenfarben, Logo oder QR-Code auf Anfrage.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tight" style="padding:56px 0; text-align:center;">
+  <div class="wrap">
+    <p style="font-size:1.15rem; margin-bottom:20px; color:var(--paper);">Termin schon fix? Jetzt Wunschtermin sichern, bevor er vergeben ist.</p>
+    <div class="btn-row center">
+      <a class="btn btn-primary" href="mailto:neef@bnp-eventservice.de?subject=Anfrage%20BNP%20Eventservice">E-Mail schreiben</a>
+      <a class="btn btn-ghost" href="https://wa.me/491759652382" target="_blank" rel="noopener">WhatsApp schreiben</a>
+    </div>
+  </div>
+</section>
+
+<section id="messen">
+  <div class="wrap">
+    <span class="eyebrow">Messecatering deutschlandweit</span>
+    <h2 class="title">Auf den großen deutschen Messen zuhause.</h2>
+    <p class="lead">Cocktailbar und Smoothiecatering für Standpartys, Ausstellerevents und After-Show-Momente — unabhängig von Branche oder Bundesland.</p>
+
+    <div class="region-grid reveal">
+      <div class="region">
+        <h3>NRW — Düsseldorf, Köln, Essen, Dortmund</h3>
+        <p>boot Düsseldorf, gamescom Köln, MEDICA Düsseldorf, ProWein Düsseldorf, Anuga Köln, K-Messe Düsseldorf, SHK+E Essen, Interpack Düsseldorf, EuroShop Düsseldorf.</p>
+      </div>
+      <div class="region">
+        <h3>Frankfurt & Hessen</h3>
+        <p>Ambiente Frankfurt, Light + Building Frankfurt, ISH Frankfurt, Automechanika Frankfurt, Christmasworld Frankfurt.</p>
+      </div>
+      <div class="region">
+        <h3>Hannover & Niedersachsen</h3>
+        <p>Hannover Messe, IAA Transportation, AGRITECHNICA, EuroTier, LIGNA, DOMOTEX.</p>
+      </div>
+      <div class="region">
+        <h3>Berlin, München & übriges Bundesgebiet</h3>
+        <p>IFA Berlin, Grüne Woche Berlin, bauma München, ISPO München, BAU München, IAA Mobility, Chillventa Nürnberg, GET NORD Hamburg.</p>
+      </div>
+    </div>
+    <p class="price-note" style="margin-top:30px;">Vollständige Messelisten und branchenspezifische Angebote bei <a href="https://www.cocktailfreunde.info" target="_blank" rel="noopener">Cocktailfreunde</a> und <a href="https://www.fruchtfreunde.info" target="_blank" rel="noopener">Fruchtfreunde</a>. Ein Beispiel für unseren Messe-Auftritt: <a href="cocktailbar-gamescom-koeln.html">Cocktailbar auf der gamescom Köln →</a></p>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <span class="eyebrow">Warum BNP Eventservice</span>
+    <h2 class="title">Aus Bochum, für ganz Deutschland.</h2>
+    <div class="why-grid reveal">
+      <div class="why-item">
+        <div class="n">01</div>
+        <p>Über zehn Jahre Erfahrung im Bochumer Event- und Kreativumfeld — kein Callcenter, sondern direkter Kontakt.</p>
+      </div>
+      <div class="why-item">
+        <div class="n">02</div>
+        <p>Zwei spezialisierte Marken unter einem Dach — kombinierbar für Ihr Event, wenn Cocktails und Smoothies gefragt sind.</p>
+      </div>
+      <div class="why-item">
+        <div class="n">03</div>
+        <p>Transparente Preise, keine versteckten Kosten, unkomplizierte Kommunikation per Mail oder WhatsApp.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" id="kontakt">
+  <div class="wrap">
+    <span class="eyebrow">Jetzt anfragen</span>
+    <h2 class="title" style="margin:0 auto 18px;">Schreiben Sie uns — wir antworten schnell.</h2>
+    <p>Ob Cocktailbar, Smoothiecatering oder beides kombiniert — teilen Sie uns Datum, Ort und ungefähre Gästezahl mit.</p>
+    <div class="btn-row center">
+      <a class="btn btn-primary" href="mailto:neef@bnp-eventservice.de?subject=Anfrage%20BNP%20Eventservice">Per E-Mail anfragen</a>
+      <a class="btn btn-ghost" href="https://wa.me/491759652382" target="_blank" rel="noopener">Per WhatsApp anfragen</a>
+    </div>
+  </div>
+</section>
+
+<a class="floating-wa" href="https://wa.me/491759652382" target="_blank" rel="noopener">WhatsApp schreiben</a>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img src="assets/bnp-logo-paper.png" alt="BNP Eventservice" style="height:44px; width:auto; margin-bottom:18px;">
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Alte Hattinger Straße 29</li>
+          <li>44789 Bochum</li>
+          <li><a href="tel:+491759652382">01759 652382</a></li>
+          <li><a href="mailto:neef@bnp-eventservice.de">neef@bnp-eventservice.de</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Unsere Marken</h4>
+        <ul>
+          <li><a href="https://www.cocktailfreunde.info" target="_blank" rel="noopener">Cocktailfreunde — Mobile Cocktailbar</a></li>
+          <li><a href="https://www.fruchtfreunde.info" target="_blank" rel="noopener">Fruchtfreunde — Smoothie Catering</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Leistungen</h4>
+        <ul>
+          <li><a href="#pakete">Cocktailbar Pakete</a></li>
+          <li><a href="#pakete">Smoothiecatering</a></li>
+          <li><a href="#messen">Messecatering</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-legal">
+      <span>© 2026 BNP Eventservice — Bochum</span>
+      <span>Dachmarke von Cocktailfreunde & Fruchtfreunde</span>
+    </div>
+
+    <div class="seo-block">
+      Mobile Cocktailbar Bochum, mobile Cocktailbar Essen, mobile Cocktailbar Dortmund, mobile Cocktailbar NRW, mobile Cocktailbar deutschlandweit · Smoothie Catering Bochum, Smoothie Catering Köln, Smoothie Catering Düsseldorf, Smoothie Catering deutschlandweit · Messecatering gamescom Köln, Messecatering Hannover Messe, Messecatering MEDICA Düsseldorf, Messecatering boot Düsseldorf, Messecatering IFA Berlin, Messecatering Anuga Köln · Hochzeitscatering Ruhrgebiet, Cocktailbar Hochzeit, Standparty Messe, Cocktailbar mieten, Smoothiebar mieten, Eventcatering Bochum, Cateringservice NRW.
+    </div>
+  </div>
+</footer>
+
+<script>
+  const revealEls = document.querySelectorAll('.reveal');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) e.target.classList.add('in');
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => obs.observe(el));
+</script>
+
+</body>
+</html>
